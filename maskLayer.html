@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <title>遮罩层</title>
+    <meta charset="UTF-8">
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .click{
+            width: 1000px;
+            height: 3390px;
+            text-align: center;
+        }
+        #mask{
+            position: absolute;;
+            top: 0;
+            left: 0;
+            background-color: #000;
+            z-index: 1;
+            opacity:0.5;
+            -moz-opacity:0.5;/*兼容ff*/
+            display: none;
+        }
+        #popup{
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            height: 150px;
+            width: 400px;
+            margin: -100px 0 0 -200px;/*negative margin实现垂直居中*/
+            z-index: 2;
+            opacity: 1;
+            background-color: #ccc;
+            display: none;
+        }
+        #popup>p:first-child{
+            text-align: center;
+            font-size: 20px;
+            color: #fff;
+            background-color: #517fff;
+            margin-bottom:20px ;
+        }
+        #popup .context{
+            margin: 0 10px;
+            font-size: 18px;
+            background-color: #ccc;
+        }
+        .btn{
+            width: 100%;
+            position: absolute;
+            margin-top: 10px;
+            bottom: 0;
+        }
+        .btn>button{
+            display: inline-block;/*如果连个i-b块中有空格，那么显示也会有空格*/
+            width: 50%;
+            border: none;
+            font-size: 18px;
+        }
+        .btn>button:first-child{
+            background-color: #ff878c;
+        }
+        .btn .no{
+            background-color: #52bb5c;
+        }
+    </style>
+</head>
+<body>
+<div id="mask"></div>
+<div id="popup">
+    <p>Title</p>
+    <p class="context">This is context!We need to show some tips to let clients make the last decision</p>
+    <div class="btn">
+        <button class="yes">YES</button><button class="no">NO</button>
+    </div>
+</div>
+<div class="click">
+    <button  class="test">点击测试</button>
+</div>
+<script type="text/javascript">
+    (function initMask() {
+        var doc=document.documentElement,
+            mask=document.getElementById('mask');
+       var  relHeight=(doc.clientHeight>doc.scrollHeight)?doc.clientHeight:doc.scrollHeight,//获取屏幕高度和页面高度中的较大值
+            relWidth=(doc.clientWidth>doc.scrollWidth)?doc.clientWidth:doc.scrollWidth;
+        mask.style.height=relHeight+'px';
+        mask.style.width=relWidth+'px';
+    })();
+    function toggleMaskAndPopup() {
+        var mask=document.getElementById('mask'),
+            popup=document.getElementById('popup'),
+            displayValue=document.defaultView.getComputedStyle(mask,null)['display'],
+            flag=!(displayValue==='none');
+        if (!flag){
+            mask.style.display='block';
+            popup.style.display='block';
+        }else {
+            mask.style.display='none';
+            popup.style.display='none';
+        }
+    }
+    function yesClick() {
+        alert('You click YES button');
+        toggleMaskAndPopup();
+    }
+    function noClick() {
+        alert('You click NO button');
+        toggleMaskAndPopup();
+    }
+
+    var btn=document.getElementsByClassName('btn')[0],
+        test=document.getElementsByClassName('click')[0].children[0];
+
+    test.addEventListener('click',toggleMaskAndPopup);
+    btn.onclick=function (event) {
+            event=event||window.event;//兼容ie，ie为后者
+        var target=event.target||event.srcElement;//兼容ff,ff为后者
+        if (target.className==='yes')
+            yesClick();
+        if (target.className==='no')
+            noClick();
+    };
+</script>
+</body>
+</html>
