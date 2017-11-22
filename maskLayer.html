@@ -80,6 +80,9 @@
     <button  class="test">点击测试</button>
 </div>
 <script type="text/javascript">
+    /*
+     *  让遮罩层mask覆盖整个页面
+     */
     (function initMask() {
         var doc=document.documentElement,
             mask=document.getElementById('mask');
@@ -88,6 +91,9 @@
         mask.style.height=relHeight+'px';
         mask.style.width=relWidth+'px';
     })();
+    /*
+     * 切换mask和内容弹窗的显示
+     */
     function toggleMaskAndPopup() {
         var mask=document.getElementById('mask'),
             popup=document.getElementById('popup'),
@@ -101,6 +107,9 @@
             popup.style.display='none';
         }
     }
+    /*
+     * 点击弹窗yes 或者 no执行的函数
+     */
     function yesClick() {
         alert('You click YES button');
         toggleMaskAndPopup();
@@ -112,8 +121,9 @@
 
     var btn=document.getElementsByClassName('btn')[0],
         test=document.getElementsByClassName('click')[0].children[0];
-
+    //事件监听，显示遮罩层
     test.addEventListener('click',toggleMaskAndPopup);
+    //事件委托，弹窗处理
     btn.onclick=function (event) {
             event=event||window.event;//兼容ie，ie为后者
         var target=event.target||event.srcElement;//兼容ff,ff为后者
