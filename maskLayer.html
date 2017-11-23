@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="zh-cn">
 <head>
     <title>遮罩层</title>
@@ -83,14 +83,14 @@
     /*
      *  让遮罩层mask覆盖整个页面
      */
-    (function initMask() {
+	function initMask() {
         var doc=document.documentElement,
             mask=document.getElementById('mask');
        var  relHeight=(doc.clientHeight>doc.scrollHeight)?doc.clientHeight:doc.scrollHeight,//获取屏幕高度和页面高度中的较大值
             relWidth=(doc.clientWidth>doc.scrollWidth)?doc.clientWidth:doc.scrollWidth;
         mask.style.height=relHeight+'px';
         mask.style.width=relWidth+'px';
-    })();
+    }	
     /*
      * 切换mask和内容弹窗的显示
      */
@@ -118,6 +118,11 @@
         alert('You click NO button');
         toggleMaskAndPopup();
     }
+
+    //给遮罩层赋予高度和宽度
+      initMask();
+    //监听窗口大小变化，解决浏览器从小变大时，出现空白的bug
+      window.onresize=initMask;
 
     var btn=document.getElementsByClassName('btn')[0],
         test=document.getElementsByClassName('click')[0].children[0];
