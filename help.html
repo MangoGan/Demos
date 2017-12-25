@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            list-style: none;
+        }
+        #header{
+            width: 1000px;
+            height: 60px;
+            padding: 10px 20px;
+            box-sizing: border-box;
+        }
+        .list{
+            width: 100%;
+            display: block;
+            /*overflow: hidden;*/
+        }
+        .list li{
+            line-height: 40px;
+            background: red;
+            color: #FFF;
+            cursor: pointer;
+        }
+        .list1 li{
+            float: left;
+            width: 20%;
+            margin: 0 20px;
+            position: relative;
+            overflow: hidden;
+        }
+        .list2{
+            position: absolute;
+            bottom: 0;
+            transform: translateY(100%);
+            left: 0;
+            overflow: hidden;
+        }
+        .list3{
+            position: absolute;
+            left: 0;
+            transform: translateX(100%);
+            top: 0;
+        }
+        .list2 li{
+            width: 100%;
+            margin: 0;
+            float: none;
+        }
+        .list1 li:hover{
+            overflow: inherit;
+            background: #FFF;
+            color: red;
+        }
+        .list2:hover{
+            overflow: inherit;
+        }
+    </style>
+</head>
+<body>
+<!--这里存在一个bug：通过hover显示出第二/三级菜单，而要点到3这个二级菜单选项，就要从二级菜单中的三级菜单里往下滑，这样到3（二级菜单时）的时候，这个面板会迅速收缩
+        https://segmentfault.com/q/1010000012167335
+-->
+<div id="header">
+    <ul class="list list1">
+        <li>一级菜单</li>
+        <li>一级菜单</li>
+        <li>
+            一级菜单
+            <ul class="list list2">
+                <li>
+                    二级菜单1
+                    <ul class="list list3">
+                        <li>三级菜单1</li>
+                        <li>三级菜单1</li>
+                    </ul>
+                </li>
+                <li>
+                    二级菜单2
+                    <ul class="list list3">
+                        <li>三级菜单2</li>
+                        <li>三级菜单2</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>
+</body>
+</html>

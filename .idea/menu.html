@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        *{
+            margin:0;
+            padding:0;
+            font-size: 18px;
+        }
+        a{
+            text-decoration: none;
+             color: #b3b0ff;
+        }
+        /*
+         * 头部三级菜单
+         */
+        .header li{
+                width: 120px;
+                display: inline-block;
+                border-radius: 2px;
+                text-align: center;
+            }
+        .header .level1{
+            /*list-style:none; 由于padding设为0，取消也可以*/
+            margin:50px 100px 0px 100px;
+            width: auto;
+            text-align: center;
+            background-color: #f1ff8d;
+        }
+        .header .level1 >li{
+            position: relative;
+            margin: 5px 10px;
+            pading:10px;
+            background-color: #fff3ec;
+        }
+        .header .level2{
+            position: absolute;
+            pading-top:30px;
+            display: none;
+            background-color: #abff80;
+        }
+        /*
+        * 这个代码很重要是给第三级做top参照的
+        */
+        .header .level2> li{
+            position: relative;
+        }
+        .header .level3{
+            position: absolute;
+            top: 0;
+            left:120px;
+            background-color: #ddefff;
+            display: none;
+        }
+        .header li:hover{
+            color: #000;
+            background-color: #fff;
+        }
+        .header .level1>li:hover>ul.level2{
+            display: block;
+        }
+        .header .level2>li:hover>ul.level3{
+            display: block;
+        }
+        /*
+         * asider
+         */
+        .asider{
+            /*list-style:none; 由于padding设为0，取消也可以*/
+            display: inline-block;
+            width: auto;
+            margin:200px 0 0 50px;
+            background-color: #f1ff8d;
+            text-align: center;
+        }
+        .asider .level1{
+            list-style: none;
+        }
+        .asider .level1 >li{
+            position: relative;
+            height: 40px;
+            width: 160px;
+            background-color: #4bffa9;
+        }
+        .asider .level2{
+            position: absolute;
+            pading-top:30px;
+            display: none;
+            background-color: #abff80;
+        }
+        .asider .level3{
+            position: absolute;
+            margin-bottom:10px;
+            background-color: #ddefff;
+            display: none;
+        }
+        .asider .level1>li:hover>ul.level2{
+            display: block;
+        }
+        .asider .level2>li:hover>ul.level3{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<!--这里存在一个bug：通过hover显示出第二/三级菜单，而要点到3这个二级菜单选项，就要从二级菜单中的三级菜单里往下滑，这样到3（二级菜单时）的时候，这个面板会迅速收缩
+        https://segmentfault.com/q/1010000012167335
+-->
+    <div class="header">
+        <ul class="level1">
+            <li><a href="###">第一级菜单</a></li>
+            <li>
+                <a href="###">第一级菜单</a>
+                <ul class="level2">
+                    <li><a href="###">第二级菜单</a></li>
+                    <li><a href="###">第二级菜单</a></li>
+                    <li><a href="###">第二级菜单</a></li>
+                </ul>
+            </li>
+            <li><a href="###">第一级菜单</a>
+                <ul class="level2">
+                    <li><a href="###">第二级菜单</a></li>
+                    <li><a href="###">第二级菜单</a>
+                        <ul class="level3">
+                            <li><a href="###">第三级菜单</a></li>
+                            <li><a href="###">第三级菜单</a></li>
+                            <li><a href="###">第三级菜单</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="###">第二级菜单</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="asider">
+        <ul class="level1">
+            <li><a href="###">第一级菜单</a></li>
+            <li>
+                <a href="###">第一级菜单</a>
+                <ul class="level2">
+                    <li><a href="###">第二级菜单</a></li>
+                    <li><a href="###">第二级菜单</a></li>
+                    <li><a href="###">第二级菜单</a></li>
+                </ul>
+            </li>
+            <li><a href="###">第一级菜单</a>
+                <ul class="level2">
+                    <li><a href="###">第二级菜单</a></li>
+                    <li><a href="###">第二级菜单</a>
+                        <ul class="level3">
+                            <li><a href="###">第三级菜单</a></li>
+                            <li><a href="###">第三级菜单</a></li>
+                            <li><a href="###">第三级菜单</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="###">第二级菜单</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <script>
+
+    </script>
+</body>
+</html>
