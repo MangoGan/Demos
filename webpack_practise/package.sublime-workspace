@@ -1,0 +1,504 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"al",
+				"absolute"
+			],
+			[
+				"i",
+				"images"
+			],
+			[
+				"background",
+				"background-image"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"to",
+				"top1"
+			],
+			[
+				"bor",
+				"border-right"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"bak",
+				"background-color"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"img",
+				"images"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"md",
+				"hex_md5"
+			],
+			[
+				"f",
+				"from"
+			],
+			[
+				"mimE",
+				"MIME"
+			],
+			[
+				"p",
+				"parts"
+			],
+			[
+				"co",
+				"combineFiles"
+			],
+			[
+				"m",
+				"MIME"
+			],
+			[
+				"url",
+				"urlInfo"
+			],
+			[
+				"re",
+				"response"
+			],
+			[
+				"path",
+				"pathnames"
+			],
+			[
+				"us",
+				"usefulIp"
+			],
+			[
+				"prox",
+				"proxy"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"im",
+				"img_title"
+			],
+			[
+				"u",
+				"utf-8"
+			],
+			[
+				"save",
+				"saveContent"
+			],
+			[
+				"next",
+				"nextLink"
+			],
+			[
+				"new",
+				"news_title"
+			],
+			[
+				"ch",
+				"cheerio"
+			],
+			[
+				"con",
+				"controller_dir"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"fo",
+				"for\tfor (…) {…}"
+			],
+			[
+				"fn",
+				"fn_index"
+			],
+			[
+				"body",
+				"bodyParse"
+			],
+			[
+				"a",
+				"async"
+			],
+			[
+				"pah",
+				"pathname"
+			],
+			[
+				"is",
+				"isFile"
+			],
+			[
+				"gt",
+				"greet"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "package",
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"jshint",
+				"JSHint"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 359.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/百度前端/xiaoweiAcademy/task_7.html",
+		"/E/百度前端/xiaoweiAcademy/css/task7.css",
+		"/E/百度前端/xiaoweiAcademy/heapSort.js",
+		"/C/Users/gan/Desktop/test.js",
+		"/C/Users/gan/Desktop/demo.js",
+		"/C/Users/gan/Desktop/test.html",
+		"/E/百度前端/xiaoweiAcademy/images/7images/task_1_7_1_05.gif",
+		"/E/百度前端/xiaoweiAcademy/images/7images/task_1_7_1_09.png",
+		"/E/百度前端/xiaoweiAcademy/images/7images/p34.png",
+		"/E/百度前端/xiaoweiAcademy/images/7images/part2.PNG",
+		"/E/百度前端/xiaoweiAcademy/images/7images/p32.png",
+		"/E/百度前端/xiaoweiAcademy/images/7images/task_1_7_1_07.gif",
+		"/E/百度前端/xiaoweiAcademy/images/7images/task_1_7_1_03.gif",
+		"/E/百度前端/xiaoweiAcademy/images/7images/seconde.png",
+		"/E/百度前端/xiaoweiAcademy/images/7images/p31.png",
+		"/C/Users/gan/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/E/百度前端/xiaoweiAcademy/task_3.html",
+		"/E/百度前端/xiaoweiAcademy/css/task6.css",
+		"/E/百度前端/xiaoweiAcademy/task_5.html",
+		"/E/百度前端/xiaoweiAcademy/task_4.html",
+		"/E/百度前端/xiaoweiAcademy/task_6.html",
+		"/E/sublimeWorkSpace/jQuery/juery-1.js",
+		"/E/nginx-gan/html/index.html",
+		"/E/nginx-gan/html/pages/index.html",
+		"/E/nginx-gan/html/pages/fragment/user/supply/main.html",
+		"/E/nginx-gan/html/pages/fragment/user/subscribe/main.html",
+		"/E/nginx-gan/html/pages/fragment/user/plan/main.html",
+		"/E/nginx-gan/html/pages/fragment/user/ladingbill/main.html",
+		"/E/nginx-gan/html/pages/fragment/user/carrier/main.html",
+		"/E/nginx-gan/html/pages/fragment/admin/employee/main.html",
+		"/E/nginx-gan/html/static/js/md5.js",
+		"/E/nginx-gan/html/static/js/custom-scripts.js",
+		"/E/webStormworkSpace/Vue2-demo/vue-tutorial/src/App.vue",
+		"/E/webStormworkSpace/Vue2-demo/vue-login/src/components/Main.vue",
+		"/E/webStormworkSpace/Vue2-demo/vue-tutorial/src/components/Hello.vue",
+		"/E/webStormworkSpace/Vue2-demo/vue-tutorial/src/router/index.js",
+		"/E/webStormworkSpace/Vue2-demo/vue-tutorial/src/store/index.js",
+		"/E/webStormworkSpace/Vue2-demo/vue-login/src/main.js",
+		"/E/webStormworkSpace/Vue2-demo/vue-login/src/App.vue",
+		"/E/webStormworkSpace/Vue2-demo/vue-login/src/vuex/store.js",
+		"/E/webStormworkSpace/Vue2-demo/vue-login/src/router/routes.js",
+		"/E/webStormworkSpace/Vue2-demo/vue-login/src/components/Hello.vue",
+		"/E/webStormworkSpace/Vue2-demo/vue-login/src/components/Login.vue",
+		"/E/apidocDemo/myapp/apidoc.json",
+		"/E/apidocDemo/apidoc.json",
+		"/E/webStormworkSpace/Vue2-demo/vue-tutorial/src/main.js",
+		"/E/webStormworkSpace/Vue2-demo/vue-tutorial/src/components/Home.vue",
+		"/E/webStormworkSpace/Vue2-demo/vue-tutorial/package.json",
+		"/E/nginx-duan/html/pages/fragment/user/plan/save.html",
+		"/E/nginx-duan/html/static/js/md5.js",
+		"/E/4days/my-app/src/App.js",
+		"/E/nginx-duan/html/pages/index.html",
+		"/E/nginx-duan/html/index.html",
+		"/D/google插件/react-hn-master/react-hn-master/js/app.js",
+		"/E/4days/my-app/src/index.js",
+		"/E/nginx-duan/html/static/js/const.js",
+		"/E/nginx-duan/html/login.html",
+		"/E/nginx-duan/html/html.iml",
+		"/D/google插件/react-hn-master/react-hn-master/html/app.html",
+		"/E/nginx-duan/conf/nginx.conf",
+		"/C/Users/gan/AppData/Roaming/Sublime Text 3/Packages/JSHint Gutter/JSHint.sublime-settings",
+		"/E/nginx-duan/html/static/favicon.ico",
+		"/E/webStormworkSpace/hn/js/NewsItem.js",
+		"/E/webStormworkSpace/hn/package.json",
+		"/E/webStormworkSpace/hn/js/NewsItemTest.js",
+		"/E/webStormworkSpace/hn/css/app.css",
+		"/C/Users/gan/Desktop/nginx-duan/nginx-1.10.3/html/login.html",
+		"/E/webStormworkSpace/hn/html/NewsItem.html",
+		"/E/webStormworkSpace/hn/build/js/NewsItem.js",
+		"/E/webStormworkSpace/hn/build/js/NewsItemTest.js",
+		"/E/webStormworkSpace/hn/build/NewsItemTest.js",
+		"/E/webStormworkSpace/hn/json/items.json",
+		"/E/webStormworkSpace/hn/css/NewsItem.css",
+		"/E/webStormworkSpace/hn/css/app.js",
+		"/E/webStormworkSpace/hn/js/newItemTest.js",
+		"/E/webStormworkSpace/hn/js/newItem.js",
+		"/E/webStormworkSpace/hn/newItem.js",
+		"/E/webStormworkSpace/teachOnly/index.js",
+		"/E/webStormworkSpace/node7/index.js",
+		"/D/google插件/listen1_backup.json",
+		"/E/webStormworkSpace/ip/proxys.json",
+		"/E/webStormworkSpace/ip/node_modules/index.js",
+		"/E/webStormworkSpace/pachong/index.js",
+		"/E/webStormworkSpace/ip/index.js",
+		"/E/webStormworkSpace/pachong/spider.js",
+		"/E/webStormworkSpace/ip/package.json",
+		"/E/webStormworkSpace/pachong/package.json",
+		"/E/sublimeWorkSpace/nodeSchool/javascripting/introduction.js",
+		"/E/sublimeWorkSpace/nodeSchool/javascripting/revising-strings.js",
+		"/E/sublimeWorkSpace/nodeSchool/javascripting/scope.js",
+		"/E/sublimeWorkSpace/nodeSchool/javascripting/variables.js",
+		"/E/webStormworkSpace/pachong/image/苏格兰阿伯泰大学副校长Grahame A Wright教授一行来访---Null.jpg",
+		"/E/webStormworkSpace/pachong/image/教育部服务学专家协作组第八次工作会议举行---Null.jpg",
+		"/E/webStormworkSpace/pachong/image/美国国际科技大学陈耀军校长一行来访---Null.jpg",
+		"/E/webStormworkSpace/pachong/image/日本理光公司野中常务副总裁一行来访---Null.jpg",
+		"/E/webStormworkSpace/pachong/image/学院和俄勒冈大学共同承办CPATH国际研讨会---Null.jpg",
+		"/E/webStormworkSpace/pachong/image/学院金融信息工程系专业顾问聘请仪式及主题报告会---与会人员合影.jpg",
+		"/E/webStormworkSpace/pachong/image/VMware公司首席执行官Pat Gelsinger一行来访北大---全体与会人员合影留念.jpg",
+		"/E/webStormworkSpace/pachong/image/我院举行James Hughes先生客座教授聘请仪式暨学术报告会---Null.jpg",
+		"/E/webStormworkSpace/pachong/data/中日韩开源软件人力资源开发与培训研讨会成功举办.txt",
+		"/E/webStormworkSpace/pachong/data/互联网联合创始人Robert E.Kahn到访北京大学.txt",
+		"/E/webStormworkSpace/pachong/data/北京大学与苏格兰阿伯泰邓迪大学签署合作备忘录.txt",
+		"/E/webStormworkSpace/hello-koa/app.js",
+		"/E/webStormworkSpace/pachong/data/北大软微学院与荷兰特文特大学行为学院签署合作备忘录.txt",
+		"/E/webStormworkSpace/pachong/data/美国国际科技大学陈耀军校长一行来访.txt",
+		"/E/webStormworkSpace/use-nunjucks/views/hello.html",
+		"/E/webStormworkSpace/use-nunjucks/app.js",
+		"/E/webStormworkSpace/use-nunjucks/package.json",
+		"/E/webStormworkSpace/hello-koa/controller.js",
+		"/E/webStormworkSpace/hello-koa/controllers/hello.js",
+		"/E/webStormworkSpace/hello-koa/controllers/login.js",
+		"/E/webStormworkSpace/hello-koa/controllers/users.js",
+		"/E/webStormworkSpace/hello-koa/package.json",
+		"/E/webStormworkSpace/hello-koa/url-koa.js",
+		"/E/webStormworkSpace/hello-koa/.eslintrc",
+		"/E/webStormworkSpace/hello-koa/controllers/login.html",
+		"/E/webStormworkSpace/node_Liao/map.js",
+		"/E/webStormworkSpace/node_Liao/md5.js",
+		"/E/webStormworkSpace/node_Liao/fileServedemo.js",
+		"/E/webStormworkSpace/node_Liao/fileServer.js",
+		"/E/webStormworkSpace/node_Liao/sam2.txt",
+		"/E/webStormworkSpace/node_Liao/sample.txt",
+		"/E/webStormworkSpace/node_Liao/file.js",
+		"/E/webStormworkSpace/node_Liao/helloWorld.js",
+		"/E/webStormworkSpace/node_Liao/http.js",
+		"/E/webStormworkSpace/node_Liao/person.js",
+		"/E/webStormworkSpace/platform_reconfiguration/web/index.html",
+		"/E/webStormworkSpace/platform_reconfiguration/web/login.html"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 115.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 41.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/JavaScript.sublime-package.sublime-build",
+	"project": "package.sublime-project",
+	"replace":
+	{
+		"height": 78.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 35.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 207.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
