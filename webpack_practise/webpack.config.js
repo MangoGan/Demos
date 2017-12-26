@@ -1,6 +1,9 @@
 /**
  * Created by MangoGan on 2017/12/24.
  */
+const webpack=require('webpack')
+const HtmlWebpackPlugin=require('html-webpack-plugin')
+
 module.exports={
     devtool:'eval-source-map',//打包调试用
     entry:__dirname + '/app/main.js',//唯一入口文件
@@ -39,5 +42,12 @@ module.exports={
             ]
         }
         ]
-    }
+    },
+    plugins:[
+        new webpack.BannerPlugin('版权所有，翻版必究'),
+        new HtmlWebpackPlugin({
+            template:__dirname+'/app/index.tmpl.html'
+        }),
+        new webpack.HotModuleReplacementPlugin()//热加载插件
+    ],
 }
