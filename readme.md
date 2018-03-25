@@ -12,6 +12,6 @@ HTML和CSS的书籍和资料推荐：
 2. 视频的话，可以上慕课网看这个[视频](http://www.imooc.com/learn/9)
 3. 书籍的话，可以自己网上下深入浅出 HTML 与 CSS(英文名是Head First HTML and CSS)
 
-上面是基础的，边看可以边结合(http://ife.baidu.com/course/all)做实战例题。
+上面是基础的，边看可以边结合[这个网站](http://ife.baidu.com/course/all)做实战例题。
 
 软件的话，先下sublime text，浏览器用谷歌或者火狐吧
